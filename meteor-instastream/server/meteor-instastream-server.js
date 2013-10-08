@@ -3,8 +3,8 @@ instaStream = new Meteor.Stream('insta');
 if (Meteor.isServer) {
   Meteor.startup(function () {
     var insta = Meteor.require('insta-stream');
-    var Instagram = new insta({client_id: '4fd7ebff4df246539cdb6aaa471499db',
-                              client_secret: '895fbcd6d42a4660a59431f8afab4e2a'});
+    var Instagram = new insta({client_id: 'client_id',
+                              client_secret: 'client_secret'});
 
     Instagram.stream('popular', '', function(stream) {
       stream.on('data', function(data) {
