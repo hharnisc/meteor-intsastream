@@ -1,0 +1,75 @@
+body {
+	font-family: 'Helvetica Nueu', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	background: #333;
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.titlebar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background: black;
+	font-size: 36px;
+	padding: 5px;
+	font-family: 'Lobster', cursive;
+	font-weight: 100;
+	text-align: center;
+	color: white;
+}
+
+.display {
+	position: relative;
+	margin: 70px auto;
+	overflow: hidden;
+}
+
+.image {
+	height: 50%;
+	width: 40%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	overflow: hidden;
+}
+.small-block {
+	height: 50%;
+	width: 20%;
+	display: inline-block;
+}
+.small-block .image {
+	height: 50%;
+	width: 100%;
+}
+.block {
+	height: 50%;
+	width: 40%;
+	display: inline-block;
+}
+.block .image {
+	height: 50%;
+	width: 50%;
+}
+
+.image img {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.likes {
+	position: absolute;
+	bottom: 10px;
+	left:10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+.twitter-holder {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
